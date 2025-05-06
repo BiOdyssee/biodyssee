@@ -1,0 +1,11 @@
+<a href="{{ .Page.Permalink }}" class="card card-compact bg-base-100 shadow-xl cursor-pointer hover:bg-base-content/10">
+  <figure>
+    <img src="{{ .Page.Params.image | default "/images/default.jpg" }}" alt="{{ .Page.Title }}" class="w-full h-48 object-cover" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title text-center">{{ .Page.Title }}</h2>
+    {{ with .Page.Params.description }}
+      <p class="text-sm text-gray-500 text-center">{{ . }}</p>
+    {{ end }}
+  </div>
+</a>

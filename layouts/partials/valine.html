@@ -1,0 +1,14 @@
+<div id="vcomments"></div>
+<script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+  new Valine({
+    el: '#vcomments',
+    appId: '{{ site.Params.LEANCLOUD_APP_ID }}',
+    appKey: '{{ site.Params.LEANCLOUD_APP_KEY }}',
+    placeholder: 'Leave a comment...',
+    lang: 'en',
+    avatar: 'mp',
+    visitor: true,
+    requiredFields: ['nick','mail']
+  });
+</script>

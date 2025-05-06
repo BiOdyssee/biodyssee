@@ -1,0 +1,41 @@
+note = "Note"
+tip = "Astuce"
+important = "Important"
+warning = "Attention"
+caution = "Prudence"
+
+home = "Accueil"
+backToHome = "Revenir à l'accueil"
+flip = "Retourne ça !"
+about = "Contact"
+search = "Rechercher"
+prevPage = "Page précédente"
+nextPage = "Page suivante"
+
+archives = "Archives"
+allCategories = "Toutes les catégories"
+allTags = "Tous les étiquettes"
+categories = "Explorez par thématiques"
+post = "Tous les posts"
+
+updatedAt = "Mise à jour le"
+socialLinks = "Réseaux sociaux"
+
+readMore = "En savoir plus sur l'association et ses missions"
+hero = "À la rencontre des espèces et de ceux qui les protègent, partout dans le monde"
+
+[minuteRead]
+one = " minute de lecture"
+other = " minutes de lecture"
+
+[article]
+one = "1 article"
+other = "{{ .Count }} articles"
+
+[category]
+one = "1 catégorie"
+other = "{{ .Count }} catégories"
+
+[tag]
+one = "1 étiquette"
+other = "{{ .Count }} étiquettes"

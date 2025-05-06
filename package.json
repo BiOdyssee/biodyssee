@@ -1,0 +1,16 @@
+{
+  "name": "Lucie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "/node_modules/tailwindcss build src/styles.css -o public/css/custom.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "daisyui": "^4.12.23",
+    "tailwindcss": "^4.0.6"
+  }
+}

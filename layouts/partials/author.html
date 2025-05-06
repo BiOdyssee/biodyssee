@@ -1,0 +1,28 @@
+{{ $authorKey := .Params.author }}
+{{ $authorData := index site.Data.authors $authorKey }}
+
+<div class="flex items-center">
+  {{ with $authorData.avatar }}
+    <div class="avatar mr-1">
+      <div class="w-8 rounded-full">
+        <img class="my-0" src="{{ . }}" alt="{{ $authorData.name | default $authorKey }}" />
+      </div>
+    </div>
+  {{ else }}
+    <span>@</span>
+  {{ end }}
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+    {{ if and $authorData (eq .template "single") }}
+      {{ with $authorData.link }}
+        <a itemprop="url" href="{{ . }}" target="_blank">
+          <span itemprop="name">{{ $authorData.name | default $authorKey }}</span>
+        </a>
+      {{ else }}
+        <span itemprop="name">{{ $authorData.name | default $authorKey }}</span>
+      {{ end }}
+    {{ else }}
+      <span itemprop="name">{{ $authorData.name | default $authorKey }}</span>
+    {{ end }}
+  </span>
+</div>

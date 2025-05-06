@@ -1,0 +1,116 @@
+baseURL = 'http://localhost:1313/'
+defaultContentLanguage = "fr"
+languageCode = "fr-fr"
+title = "BiOdyssée"
+theme = "dream"
+
+[logger]
+level = "debug"
+
+[params]
+lightTheme = "emerald"
+darkTheme = "forest"
+
+# backgroundImage = "/images/fond.jpg" pour ajouter une image de fond
+
+avatar = "/images/logo.jpg"
+
+# Titre principal et description
+headerTitle = "BiOdyssée"
+motto = "À la (re)découverte du vivant"
+
+# Texte écrit en bas de page 
+footerBottomText = "Tous droits réservés"  
+
+# Permet d'afficher la table des matières de chaque article
+showTableOfContents = true
+
+# Permet d'afficher un résumé de chaque post
+showSummaryCoverInPost = true
+
+# Permet d'avoir un bouton pour naviguer d'un article à un autre
+showPrevNextPost = true
+
+mainSections = ["post"]
+showLanguageSelector = true
+
+defaultContentLanguageInSubdir = true  # Place la langue par défaut dans un sous-dossier
+
+  [languages]
+    [languages.fr]
+      weight = 1
+      languageName = "Français"
+      languageCode = "fr"
+      contentDir = "content/fr"
+      home = "index.md"
+      
+      [languages.fr.permalinks]
+        posts = "/fr/posts/:slug/"
+       
+        
+      [languages.fr.menu]
+        [[languages.fr.menu.main]]
+          identifier = "about"
+          name = "À propos"
+          weight = 1
+  
+    [languages.ja]
+      weight = 2
+      languageName = "日本語"
+      languageCode = "ja"
+      contentDir = "content/ja"
+      home = "index.md"
+      
+      [languages.ja.permalinks]
+        posts = "/posts/:slug/"
+      
+        
+      [languages.ja.menu]
+        [[languages.ja.menu.main]]
+          identifier = "about"
+          name = "約"
+          weight = 2
+      
+     [languages.en]
+      weight = 3
+      languageName = "English"
+      languageCode = "en"
+      contentDir = "content/en"
+      home = "index.md"
+      
+      [languages.en.permalinks]
+        posts = "/posts/:slug/"
+       
+        
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "about"
+          name = "About"
+          weight = 3
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params.advanced]
+customCSS = ["css/custom.css"] # Permet de modifier l'apparence
+
+[markup]
+  [markup.goldmark.parser.attribute]
+  block = true
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+# Pour le système de commentaire
+
+[params.valine]
+enable = true
+appId = "57Yb4m6DqcFU87XXx3SfbXBX-MdYXbMMI"
+appKey = "dVLhW0nQP1U87Kp3gPkS1mVq"
+
+
+
+

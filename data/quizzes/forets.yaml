@@ -1,0 +1,42 @@
+- question:
+    fr: Quelle est la plus grande forêt tropicale du monde ?
+    en: What is the largest tropical forest in the world?
+    ja: 世界最大の熱帯雨林はどこですか？
+  options:
+    fr: [La forêt amazonienne, La forêt de Bornéo, La taïga sibérienne]
+    en: [Amazon rainforest, Borneo rainforest, Siberian taiga]
+    ja: [アマゾン熱帯雨林, ボルネオの熱帯雨林, シベリアのタイガ]
+  correct: 0
+  explanation:
+      fr: explication en français
+      en: explication en anglais
+      ja: explication en japonais
+
+
+- question:
+    fr: Quelle est la plus grande forêt tropicale du monde ?
+    en: What is the largest tropical forest in the world?
+    ja: 世界最大の熱帯雨林はどこですか？
+  options:
+    fr: [La forêt amazonienne, La forêt de Bornéo, La taïga sibérienne]
+    en: [Amazon rainforest, Borneo rainforest, Siberian taiga]
+    ja: [アマゾン熱帯雨林, ボルネオの熱帯雨林, シベリアのタイガ]
+  correct: 0
+  explanation:
+      fr: "explication en français"
+      en: "explication en anglais"
+      ja: "explication en japonais"
+
+- question:
+    fr: Quelle est la plus grande forêt tropicale du monde ?
+    en: What is the largest tropical forest in the world?
+    ja: 世界最大の熱帯雨林はどこですか？
+  options:
+    fr: [La forêt amazonienne, La forêt de Bornéo, La taïga sibérienne]
+    en: [Amazon rainforest, Borneo rainforest, Siberian taiga]
+    ja: [アマゾン熱帯雨林, ボルネオの熱帯雨林, シベリアのタイガ]
+  correct: 0
+  explanation:
+      fr: "explication en français"
+      en: "explication en anglais"
+      ja: "explication en japonais"

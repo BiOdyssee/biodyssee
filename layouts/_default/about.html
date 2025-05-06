@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ range sort .Pages "Weight" }}
+    <section>
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+    </section>
+  {{ end }}
+{{ end }}
+  

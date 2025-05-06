@@ -1,0 +1,100 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $quiz := index (index site.Data.quizzes (.Get "quiz")) (int (.Get "index")) }}
+{{ $quizID := printf "%s-%s" (.Get "quiz") (.Get "index") }}
+
+<div class="quiz-question" data-id="{{ $quizID }}" data-correct="{{ $quiz.correct }}">
+  <p>{{ index $quiz.question $lang }}</p>
+  {{ range $i, $opt := index $quiz.options $lang }}
+    <button onclick="checkAnswer(this, {{ eq $i $quiz.correct }})">{{ $opt }}</button>
+  {{ end }}
+
+  <!-- Zone pour afficher le texte explicatif juste sous chaque question -->
+  <div class="quiz-explanation" style="display: none; font-size: 1em; margin-top: 1em;"></div>
+</div>
+
+<div id="score-display" style="font-weight: bold; margin-top: 1em;"></div>
+
+<script>
+if (!window.quizScriptAdded) {
+  window.quizScriptAdded = true;
+
+  window.quizScore = {
+    total: 0,
+    correct: 0,
+    answered: 0
+  };
+
+  window.updateScoreDisplay = function() {
+    const display = document.getElementById("score-display");
+    if (display) {
+      display.textContent = `Score global : ${quizScore.correct} / ${quizScore.total}`;
+    }
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    window.checkAnswer = function(button, isCorrect) {
+      const container = button.parentElement;
+      const alreadyAnswered = container.classList.contains("answered");
+      if (alreadyAnswered) return;
+
+      container.classList.add("answered");
+
+      const buttons = container.querySelectorAll("button");
+      buttons.forEach(btn => btn.disabled = true);
+
+      const explanationDiv = container.querySelector('.quiz-explanation');
+
+      // Ajout d'un texte explicatif dynamique en fonction de la langue
+      const explanationText = isCorrect 
+        ? "{{ index $quiz.explanation $lang }}" // Explication pour la bonne réponse
+        : "{{ index $quiz.explanation $lang }}"; // Explication pour la mauvaise réponse (tu peux personnaliser)
+
+      explanationDiv.textContent = explanationText;
+      explanationDiv.style.display = 'block'; // Afficher l'explication
+
+      if (isCorrect) {
+        button.style.backgroundColor = "#4CAF50";
+        quizScore.correct += 1;
+      } else {
+        button.style.backgroundColor = "#f44336";
+        buttons.forEach(btn => {
+          if (btn !== button && btn.onclick.toString().includes("true")) {
+            btn.style.backgroundColor = "#4CAF50";
+          }
+        });
+      }
+
+      quizScore.total += 1;
+      quizScore.answered += 1;
+      updateScoreDisplay();
+    };
+  });
+}
+</script>
+
+<style>
+.quiz-question {
+  font-family: Open Sans;
+  margin-bottom: 2em;
+  text-align: left;
+}
+.quiz-question button {
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #87c174;
+  background-color: #dffad6;
+  color: #333 ;
+  transition: background-color 0.3s;
+  border-radius: 12px;
+}
+.quiz-explanation {
+  font-size: 1.1em;
+  color: #444;
+}
+</style>
