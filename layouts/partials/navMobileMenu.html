@@ -1,0 +1,33 @@
+{{ with site.GetPage "/about" }}
+{{ $aboutPages := .Resources.ByType "page" }}
+{{ if gt (len $aboutPages) 0 }}
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="{{ T "about" }}">
+    <ion-icon name="information-circle"></ion-icon>
+    {{- T "about" -}}
+  </div>
+</li>
+{{ end }}
+{{ end }}
+
+{{ $navItems := slice "search" "rss" "posts" "categories" "tags" }}
+{{ if site.Params.reorderNavItems }}
+{{ $navItems = site.Params.reorderNavItems }}
+{{ end }}
+{{ range $navItems }}
+{{ partial "renderMobileNavItem.html" . }}
+{{ end }}
+
+{{ with site.Params.navItems }}
+{{ partial "navCustomItems.html" (dict "navItems" $navItems "mobile" true) }}
+{{ end }}
+
+<li class="menu-title px-2 pt-2">Langue</li>
+{{ range .Site.Languages }}
+  <li>
+    <a href="{{ .Lang | relURL }}" class="inline-flex items-center p-2 text-black hover:underline">
+      {{ .LanguageName }}
+    </a>
+  </li>
+{{ end }}
+

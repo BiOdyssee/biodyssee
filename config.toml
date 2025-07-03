@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = "https://biodyssee.netlify.app/"
 defaultContentLanguage = "fr"
 languageCode = "fr-fr"
 title = "BiOdyssée"
@@ -112,5 +112,8 @@ appId = "57Yb4m6DqcFU87XXx3SfbXBX-MdYXbMMI"
 appKey = "dVLhW0nQP1U87Kp3gPkS1mVq"
 
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-2PHJBK75DX"
 
 

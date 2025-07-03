@@ -3,7 +3,7 @@ socials = [
   #{ href = "https://x.com/g1eny0ung", target="_blank", icon = "logo-x", title = "X" },
   { href = "https://www.facebook.com/profile.php?id=61576052068851", target="_blank", icon = "logo-facebook", title = "Facebook" },
   { href = "https://www.instagram.com/bio_dyssee/", target="_blank", icon = "logo-instagram", title = "Instagram" },
-  #{ href = "https://www.linkedin.com/in/g1eny0ung", target="_blank", icon = "logo-linkedin", title = "Linkedin" },
+  { href = "https://www.linkedin.com/company/107400672/admin/dashboard/", target="_blank", icon = "logo-linkedin", title = "Linkedin" },
   #{ href = "https://stackoverflow.com/users/5676489/g1eny0ung", target="_blank", icon = "logo-stackoverflow", title = "stack overflow" },
   #{ href = "https://codepen.io/g1eny0ung", target="_blank", icon = "logo-codepen", title = "Codepen" },
   { href = "mailto:biodyssee2026@gmail.com", target="_blank", icon = "mail-outline", title = "Email" }

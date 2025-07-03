@@ -24,7 +24,7 @@ La biodiversité s’exprime à **3 niveaux** :
 On a tout d'abord la diversité au sein d’une espèce, dite **intraspécifique**. Tous les individus au sein d’une même espèce sont différents.
 
 <div style="display: flex; align-items: center;">
-  <img src="/images/definition_biodiversite/polymorphisme genetique.png" style="width: 250px; margin-right: 10px;">
+  <img src="/images/definition_biodiversite/polymorphisme genetique.png" style="max-width: 40%; height: auto; margin-right: 10px; float: left;">
   <p>Sur cette illustration, on peut voir que cette espèce d’escargot existe sous pleins de formes et de couleurs différentes. Pourtant, il s’agit bien de la même espèce.
 Les différences observées sont dues à de petites variations dans les gènes des escargots : certaines version du gène codent pour une coquille jaune, d’autres pour une coquille brune.
 C’est pareil pour la couleur des yeux chez les êtres humains : certains sont bleus, et d’autres sont marrons ou verts.
@@ -50,7 +50,7 @@ Ce sont ces caractéristiques qui permettent de déterminer si deux individus fo
     <li>Les espèces écologiques : ensemble d’individus partageant la même niche écologique, c’est-à-dire le même habitat, les mêmes conditions de vie, etc.</li>
   </ul>
   <h3 style="margin-top: 0;">Le ligron est-il une espèce ?</h3>
-  <img src="/images/definition_biodiversite/ligron.jpg" style="max-width: 240px; float: right; margin-left: 1em; border-radius: 4px;" />
+  <img src="/images/definition_biodiversite/ligron.jpg" style="max-width: 40%; height: auto; margin-right: 10px; float: left;" />
   <p> Le ligron est un hybride entre un tigre et un lion, il est issu de la reproduction entre les deux. Mais du coup, puisqu’ils peuvent se reproduire entre eux, est ce que les tigres et les lions font parties de la même espèce ? Et bien, non, car le ligron n’est pas fécond, il ne peut pas avoir de descendants. Il n'est donc pas une espèce à part entière.</p>
 </div>
 
@@ -86,7 +86,7 @@ Pour trouver des solutions efficaces pour la protéger, ils ont réussi à ident
 
 ![composition destruction habitats](/images/definition_biodiversite/destruction_habitat.png)
 
-Sur cette image, on peut apercevoir la déforestation qui est à l’œuvre en forêt amazonienne, considérée comme étant le poumon du monde et qui abritent une diversité d’espèces incomparables. La perte de cet habitat naturel a des conséquence désastreuse non seulement en terme de régulation du climat mais aussi pour toutes les espèces qui y vivent. Selon l'IPBES, un organe international qui traite les questions de la biodiversité, la déforestation est responsable de 50% de la destruction des habitats naturels, qui  abritent pourtant plus de 50% de la biodiversité mondiale.
+Sur cette image, on peut apercevoir la déforestation qui est à l’œuvre en forêt amazonienne, considérée comme étant le poumon du monde et qui abrite une diversité d’espèces incomparable. La perte de cet habitat naturel a des conséquences désastreuses non seulement en terme de régulation du climat mais aussi pour toutes les espèces qui y vivent. Selon l'IPBES, un organe international qui traite les questions de la biodiversité, la déforestation est responsable de 50% de la destruction des habitats naturels, qui  abritent pourtant plus de 50% de la biodiversité mondiale.
 
 Sur l'image de droite, on peut voir que pour nourir le monde, les agriculeurs ont recours à certaines pratiques, comme l'usage de produits chimiques, qui détruisent toutes la biodiversité présente dans le sol. L'agriculture est la cause la plus directe du déclin de la biodiversité, elle est responsable de plus de 70% de la déforestation. 
 
@@ -95,10 +95,10 @@ Sur l'image de droite, on peut voir que pour nourir le monde, les agriculeurs on
 **La pollution**  qu'elle soit plastique, ou chimique (médicaments, pesticides, etc.) empoisonne les milieux et les espèces. Elle est responsable d'une grande partie de la perte de biodiversité à l'échelle mondiale.
 
 <div style="display: flex; align-items: center;">
-  <img src="/images/definition_biodiversite/pollution_plastique.png" style="width: 250px; margin-right: 10px;">
+  <img src="/images/definition_biodiversite/pollution_plastique.png" style="max-width: 40%; height: auto; margin-right: 10px; float: left;">
   <p>L’océan est un milieu particulièrement touché par la pollution plastique. En effet, les plastiques constituent 90 % des déchets flottants sur les océans et comme exemple majeur, on peut citer le continent de plastique qui se trouve dans l’océan Pacifique Nord. Il est parfois appelé le 6e continent. L'océanographe Charles Moore a mesuré une concentration de plus de 334 000 déchets par km2 (variant de 32 000 à 1 million de pièces par km2).</p>
 </div>
-Cela représente un enjeux majeurs pour toutes les populations dont la survie dépend de l'océan, et plus particulièrement de la pêche.
+Cela représente un enjeu majeur pour toutes les populations dont la survie dépend de l'océan, et plus particulièrement de la pêche.
 
 ### La surexploitation des ressources naturelles
 
@@ -114,7 +114,7 @@ On ne le présente plus, le changement climatique modifie les conditions abiotiq
 
 ![composition changement climatique](/images/definition_biodiversite/changement_climatique.png)
 
-Les phénomènes climatiques extrêmes comme les sécheresses, les inondations ou les cyclones ont vu leur fréquence et leur intensité augmentées ces dernières années. La principale raison à cela est le dérèglement climatique. L’augmentation des températures est aussi indirectement liée à l’augmentation des feux de forêt, qui se font de plus en plus fréquents et de plus en plus tôt dans l’année.
+Les phénomènes climatiques extrêmes comme les sécheresses, les inondations ou les cyclones ont vu leur fréquence et leur intensité augmenter ces dernières années. La principale raison à cela est le dérèglement climatique. L’augmentation des températures est aussi indirectement liée à l’augmentation des feux de forêt, qui se font de plus en plus fréquents et de plus en plus tôt dans l’année.
 
 ### Les espèces exotiques envahissantes
 

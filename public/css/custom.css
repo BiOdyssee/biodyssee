@@ -64,3 +64,14 @@ nav.py-4 {
 .scroll-btn.right {
   right: 0;
 }
+
+/* Corrige la couleur du texte dans le menu mobile */
+.dropdown-content a,
+.dropdown-content .menu-title {
+  color: #000 !important;
+}
+
+/* S'assurer que le fond du menu est bien blanc (et pas transparent ou hérité du dark mode) */
+.dropdown-content {
+  background-color: #ffffff !important;
+}

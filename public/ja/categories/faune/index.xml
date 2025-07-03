@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>動物 on BiOdyssée</title>
-    <link>http://localhost:1313/ja/categories/faune/</link>
+    <link>https://biodyssee.netlify.app/ja/categories/faune/</link>
     <description>Recent content in 動物 on BiOdyssée</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <atom:link href="http://localhost:1313/ja/categories/faune/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jun 2025 14:00:00 +0100</lastBuildDate>
+    <atom:link href="https://biodyssee.netlify.app/ja/categories/faune/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>タンチョウ</title>
+      <link>https://biodyssee.netlify.app/ja/posts/%E3%82%BF%E3%83%B3%E3%83%81%E3%83%A7%E3%82%A6/</link>
+      <pubDate>Thu, 26 Jun 2025 14:00:00 +0100</pubDate>
+      <guid>https://biodyssee.netlify.app/ja/posts/%E3%82%BF%E3%83%B3%E3%83%81%E3%83%A7%E3%82%A6/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;タンチョウ&lt;/strong&gt;（&lt;em&gt;Grus japonensis&lt;/em&gt;）は、ツル科に属する鳥類で、最も大きな種のひとつです。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
