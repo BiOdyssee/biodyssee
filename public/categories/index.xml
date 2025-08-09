@@ -6,8 +6,22 @@
     <description>Recent content in Catégories on BiOdyssée</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Jun 2025 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://biodyssee.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Définitions et concepts</title>
+      <link>https://biodyssee.netlify.app/categories/definition/</link>
+      <pubDate>Wed, 06 Aug 2025 14:00:00 +0100</pubDate>
+      <guid>https://biodyssee.netlify.app/categories/definition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Culture et histoire du Japon</title>
+      <link>https://biodyssee.netlify.app/categories/histoire/</link>
+      <pubDate>Tue, 08 Jul 2025 14:00:00 +0100</pubDate>
+      <guid>https://biodyssee.netlify.app/categories/histoire/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Faune</title>
       <link>https://biodyssee.netlify.app/categories/faune/</link>
@@ -20,13 +34,6 @@
       <link>https://biodyssee.netlify.app/categories/especes_emblematiques/</link>
       <pubDate>Thu, 26 Jun 2025 14:00:00 +0100</pubDate>
       <guid>https://biodyssee.netlify.app/categories/especes_emblematiques/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Définitions et concepts</title>
-      <link>https://biodyssee.netlify.app/categories/definition/</link>
-      <pubDate>Sun, 08 Jun 2025 14:00:00 +0100</pubDate>
-      <guid>https://biodyssee.netlify.app/categories/definition/</guid>
       <description></description>
     </item>
     <item>
@@ -48,13 +55,6 @@
       <link>https://biodyssee.netlify.app/categories/expedition-2026/</link>
       <pubDate>Wed, 16 Apr 2025 14:00:00 +0100</pubDate>
       <guid>https://biodyssee.netlify.app/categories/expedition-2026/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Culture et histoire</title>
-      <link>https://biodyssee.netlify.app/categories/culture-et-histoire/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://biodyssee.netlify.app/categories/culture-et-histoire/</guid>
       <description></description>
     </item>
     <item>

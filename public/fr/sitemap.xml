@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://biodyssee.netlify.app/posts/</loc>
-    <lastmod>2025-06-26T14:00:00+01:00</lastmod>
+    <lastmod>2025-08-06T14:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -21,7 +21,7 @@
                 />
   </url><url>
     <loc>https://biodyssee.netlify.app/categories/</loc>
-    <lastmod>2025-06-26T14:00:00+01:00</lastmod>
+    <lastmod>2025-08-06T14:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -37,6 +37,51 @@
                 hreflang="fr"
                 href="https://biodyssee.netlify.app/categories/"
                 />
+  </url><url>
+    <loc>https://biodyssee.netlify.app/categories/definition/</loc>
+    <lastmod>2025-08-06T14:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://biodyssee.netlify.app/ja/categories/definition/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://biodyssee.netlify.app/en/categories/definition/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://biodyssee.netlify.app/categories/definition/"
+                />
+  </url><url>
+    <loc>https://biodyssee.netlify.app/</loc>
+    <lastmod>2025-08-06T14:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://biodyssee.netlify.app/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://biodyssee.netlify.app/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://biodyssee.netlify.app/"
+                />
+  </url><url>
+    <loc>https://biodyssee.netlify.app/fr/posts/un-peu-dhistoire-pour-d%C3%A9finir-la-biodiversit%C3%A9/</loc>
+    <lastmod>2025-08-06T14:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://biodyssee.netlify.app/categories/histoire/</loc>
+    <lastmod>2025-07-08T14:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://biodyssee.netlify.app/fr/posts/histoire_paleolitique/</loc>
+    <lastmod>2025-07-08T14:00:00+01:00</lastmod>
   </url><url>
     <loc>https://biodyssee.netlify.app/categories/faune/</loc>
     <lastmod>2025-06-26T14:00:00+01:00</lastmod>
@@ -90,42 +135,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://biodyssee.netlify.app/categories/especes_emblematiques/"
-                />
-  </url><url>
-    <loc>https://biodyssee.netlify.app/</loc>
-    <lastmod>2025-06-26T14:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://biodyssee.netlify.app/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://biodyssee.netlify.app/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://biodyssee.netlify.app/"
-                />
-  </url><url>
-    <loc>https://biodyssee.netlify.app/categories/definition/</loc>
-    <lastmod>2025-06-08T14:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://biodyssee.netlify.app/ja/categories/definition/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://biodyssee.netlify.app/en/categories/definition/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://biodyssee.netlify.app/categories/definition/"
                 />
   </url><url>
     <loc>https://biodyssee.netlify.app/fr/posts/glossaire-de-la-rubrique-fourmi/</loc>
@@ -271,8 +280,6 @@
                 hreflang="fr"
                 href="https://biodyssee.netlify.app/search/"
                 />
-  </url><url>
-    <loc>https://biodyssee.netlify.app/categories/culture-et-histoire/</loc>
   </url><url>
     <loc>https://biodyssee.netlify.app/categories/flore/</loc>
     <xhtml:link
