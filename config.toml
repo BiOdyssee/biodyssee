@@ -77,7 +77,7 @@ defaultContentLanguageInSubdir = true  # Place la langue par défaut dans un sou
       languageCode = "en"
       contentDir = "content/en"
       home = "index.md"
-      
+     
       [languages.en.permalinks]
         posts = "/posts/:slug/"
        

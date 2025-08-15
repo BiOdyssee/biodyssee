@@ -4,8 +4,8 @@ date: 2025-06-26T14:00:00+01:00
 draft: false  
 cover: "/images/especes_emblematiques/grue.png"
 categories: ["faune","especes_emblematiques"]
-lang : "fr"
-author : hugo
+lang: "fr"
+author: hugo
 ---
 
 La **Grue du Japon** (*Grus japonensis*) est un échassier de la famille des gruidae, dont elle est l’un des plus grands représentants. 

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://biodyssee.netlify.app/en/posts/</loc>
-    <lastmod>2025-06-26T14:00:00+01:00</lastmod>
+    <lastmod>2025-08-15T14:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -20,8 +20,26 @@
                 href="https://biodyssee.netlify.app/en/posts/"
                 />
   </url><url>
+    <loc>https://biodyssee.netlify.app/en/</loc>
+    <lastmod>2025-08-15T14:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://biodyssee.netlify.app/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://biodyssee.netlify.app/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://biodyssee.netlify.app/en/"
+                />
+  </url><url>
     <loc>https://biodyssee.netlify.app/en/categories/</loc>
-    <lastmod>2025-06-26T14:00:00+01:00</lastmod>
+    <lastmod>2025-08-14T14:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -36,6 +54,78 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://biodyssee.netlify.app/en/categories/"
+                />
+  </url><url>
+    <loc>https://biodyssee.netlify.app/en/posts/emblematic-species-profile/</loc>
+    <lastmod>2025-08-14T14:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://biodyssee.netlify.app/fr/posts/fiches-sur-les-esp%C3%A8ces-embl%C3%A9matiques/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://biodyssee.netlify.app/ja/posts/%E7%A8%AE%E3%81%AE%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://biodyssee.netlify.app/en/posts/emblematic-species-profile/"
+                />
+  </url><url>
+    <loc>https://biodyssee.netlify.app/en/categories/galerie/</loc>
+    <lastmod>2025-08-14T14:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://biodyssee.netlify.app/categories/galerie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://biodyssee.netlify.app/ja/categories/galerie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://biodyssee.netlify.app/en/categories/galerie/"
+                />
+  </url><url>
+    <loc>https://biodyssee.netlify.app/en/posts/a-bit-of-history-to-define-biodiversity/</loc>
+    <lastmod>2025-08-06T14:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://biodyssee.netlify.app/fr/posts/un-peu-dhistoire-pour-d%C3%A9finir-la-biodiversit%C3%A9/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://biodyssee.netlify.app/ja/posts/%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A7%98%E6%80%A7%E3%82%92%E5%AE%9A%E7%BE%A9%E3%81%99%E3%82%8B%E3%81%9F%E3%82%81%E3%81%AE%E5%B0%91%E3%81%97%E3%81%AE%E6%AD%B4%E5%8F%B2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://biodyssee.netlify.app/en/posts/a-bit-of-history-to-define-biodiversity/"
+                />
+  </url><url>
+    <loc>https://biodyssee.netlify.app/en/categories/definition/</loc>
+    <lastmod>2025-08-06T14:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://biodyssee.netlify.app/categories/definition/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://biodyssee.netlify.app/ja/categories/definition/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://biodyssee.netlify.app/en/categories/definition/"
                 />
   </url><url>
     <loc>https://biodyssee.netlify.app/en/categories/faune/</loc>
@@ -72,24 +162,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://biodyssee.netlify.app/en/categories/especes_emblematiques/"
-                />
-  </url><url>
-    <loc>https://biodyssee.netlify.app/en/</loc>
-    <lastmod>2025-06-26T14:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://biodyssee.netlify.app/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://biodyssee.netlify.app/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://biodyssee.netlify.app/en/"
                 />
   </url><url>
     <loc>https://biodyssee.netlify.app/en/posts/the-red-crowned-crane/</loc>
@@ -146,30 +218,17 @@
                 href="https://biodyssee.netlify.app/en/categories/rubrique_fourmi/"
                 />
   </url><url>
-    <loc>https://biodyssee.netlify.app/en/categories/definition/</loc>
-    <lastmod>2025-04-29T14:00:00+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://biodyssee.netlify.app/categories/definition/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://biodyssee.netlify.app/ja/categories/definition/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://biodyssee.netlify.app/en/categories/definition/"
-                />
-  </url><url>
     <loc>https://biodyssee.netlify.app/en/posts/what-is-biodiversity/</loc>
     <lastmod>2025-04-29T14:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
                 href="https://biodyssee.netlify.app/fr/posts/quest-ce-que-la-biodiversit%C3%A9/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://biodyssee.netlify.app/ja/posts/%E7%94%9F%E7%89%A9%E5%A4%9A%E6%A7%98%E6%80%A7%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -277,6 +336,23 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://biodyssee.netlify.app/en/search/"
+                />
+  </url><url>
+    <loc>https://biodyssee.netlify.app/en/categories/histoire/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://biodyssee.netlify.app/categories/histoire/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://biodyssee.netlify.app/ja/categories/histoire/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://biodyssee.netlify.app/en/categories/histoire/"
                 />
   </url><url>
     <loc>https://biodyssee.netlify.app/en/categories/flore/</loc>

@@ -6,8 +6,22 @@
     <description>Recent content in Categories on BiOdyssée</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 26 Jun 2025 14:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 14:00:00 +0100</lastBuildDate>
     <atom:link href="https://biodyssee.netlify.app/ja/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>種のプロフィール</title>
+      <link>https://biodyssee.netlify.app/ja/categories/galerie/</link>
+      <pubDate>Thu, 14 Aug 2025 14:00:00 +0100</pubDate>
+      <guid>https://biodyssee.netlify.app/ja/categories/galerie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>定義とコンセプト</title>
+      <link>https://biodyssee.netlify.app/ja/categories/definition/</link>
+      <pubDate>Wed, 06 Aug 2025 14:00:00 +0100</pubDate>
+      <guid>https://biodyssee.netlify.app/ja/categories/definition/</guid>
+      <description></description>
+    </item>
     <item>
       <title>動物</title>
       <link>https://biodyssee.netlify.app/ja/categories/faune/</link>
@@ -51,10 +65,10 @@
       <description></description>
     </item>
     <item>
-      <title>定義とコンセプト</title>
-      <link>https://biodyssee.netlify.app/ja/categories/definition/</link>
+      <title>日本の文化と歴史</title>
+      <link>https://biodyssee.netlify.app/ja/categories/histoire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://biodyssee.netlify.app/ja/categories/definition/</guid>
+      <guid>https://biodyssee.netlify.app/ja/categories/histoire/</guid>
       <description></description>
     </item>
   </channel>

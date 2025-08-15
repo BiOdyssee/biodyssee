@@ -8,7 +8,7 @@ author: theophile
 draft: false
 ---
 
-Le concept de biodiversité est maintenant devenu central dans les débats autour de l'environnement et de sa préservation, démontrant l’importance de l'évaluation de son état.
+Le concept de biodiversité est devenu central dans les débats autour de l'environnement et de sa préservation, démontrant l’importance de l'évaluation de son état.
 
 <!--more-->
 

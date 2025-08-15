@@ -1,0 +1,11 @@
+{{ $folder := .Get "folder" }}          <!-- chemin URL pour l'image -->
+{{ $dir := printf "static%s" $folder }} <!-- chemin réel pour lire le dossier -->
+{{ $images := readDir $dir }}
+
+<div class="gallery-lightbox">
+  {{ range $images }}
+    <a href="{{ printf "%s/%s" $folder .Name }}" class="gallery-link">
+      <img src="{{ printf "%s/%s" $folder .Name }}" alt="{{ .Name }}" class="gallery-thumb">
+    </a>
+  {{ end }}
+</div>
